@@ -1,0 +1,109 @@
+#header {
+  font-size: 100px;
+  margin-bottom: 10px;
+  letter-spacing: 1.1rem;
+}
+
+body {
+  background-image: url("../img/snow.gif");
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Quattrocento';
+}
+
+button {
+  font-family: 'Quattrocento';
+}
+
+input, textarea {
+  font-family: 'Oswald';
+}
+
+/*Option 2 with Simple Color Background*/
+/*body {
+  background: -webkit-linear-gradient(90deg, #13547a 0%, #80d0c7 100%);*/ /* Chrome 10+, Saf5.1+ */
+  /*background:    -moz-linear-gradient(90deg, #13547a 0%, #80d0c7 100%);*/ /* FF3.6+ */
+  /*background:     -ms-linear-gradient(90deg, #13547a 0%, #80d0c7 100%);*/ /* IE10 */
+/*  background:      -o-linear-gradient(90deg, #13547a 0%, #80d0c7 100%);*/ /* Opera 11.10+ */
+ /* background:         linear-gradient(90deg, #13547a 0%, #80d0c7 100%);*/ /* W3C */
+  /*text-align: center;
+}*/
+  
+
+
+input {
+  height: 1.8rem;
+  background-color: white;
+}
+
+.boxes {
+  margin-bottom: 20px;
+  width: 250px;
+  font-size: 15px;
+}
+
+#username { 
+  margin-bottom: 20px;
+  width: 250px;
+  height: 1.8rem;
+  font-size: 15px;
+  background: white; 
+}
+
+textarea {
+  height: 100px;
+  background: white;
+}
+
+h3 {
+  padding-bottom: 30px;
+  border-bottom: dotted;
+
+}
+
+#btn {
+  width: 100px;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: #A4DAE8;
+  transition: .3s;
+}
+
+.main-header {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: .1s;
+  /*-webkit-animation-iteration-count: infinite;*/
+
+  -moz-animation-duration: 5s;
+  -moz-animation-delay: .1s;
+  /*-moz-animation-iteration-count: infinite;*/
+
+  -o-animation-duration: 5s;
+  -o-animation-delay: .1s;
+  /*-o-animation-iteration-count: infinite;*/
+}
+
+.main-roller {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: .1s;
+  /*-webkit-animation-iteration-count: infinite;*/
+
+  -moz-animation-duration: 5s;
+  -moz-animation-delay: .1s;
+  /*-moz-animation-iteration-count: infinite;*/
+
+  -o-animation-duration: 5s;
+  -o-animation-delay: .1s;
+  /*-o-animation-iteration-count: infinite;*/
+}
